@@ -96,9 +96,9 @@ export const MyEditor = defineComponent(() => {
 
 \u81EA\u5B9A\u4E49\u7EC4\u4EF6\u4E2D\u88AB\u6CE8\u5165\u7684\u503C\uFF1A
 
--   _editor_:
+-   _ctx_:
 
-    Milkdown \u7F16\u8F91\u5668\u7684\u5B9E\u4F8B\u3002
+    Milkdown \u7F16\u8F91\u5668\u7684 ctx\u3002
 
 -   _node_:
 

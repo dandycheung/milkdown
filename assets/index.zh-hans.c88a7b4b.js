@@ -1,10 +1,10 @@
 var n=`# Milkdown
 
-![greeting bear](https://preview.redd.it/us7w1x2zx8461.jpg?auto=webp&s=077a73d5c08aec0bc0fb48c5e5be40c928467bb6)
+![greeting bear](/polar.jpeg)
 
 > Milkdown \u662F\u4E00\u4E2A\u6240\u89C1\u5373\u6240\u5F97\u7684\u7F16\u8F91\u5668\u6846\u67B6\u3002
 >
-> :baby_bottle: \u8FD9\u91CC\u662F[\u4EE3\u7801\u4ED3\u5E93](\u70B9\u51FB\u53F3\u952E\u6253\u5F00\u94FE\u63A5)\u3002\\
+> :baby_bottle: \u8FD9\u91CC\u662F[\u4EE3\u7801\u4ED3\u5E93] (\u70B9\u51FB\u53F3\u952E\u6253\u5F00\u94FE\u63A5)\u3002\\
 > \u6211\u4EEC ~~\u53EA\u652F\u6301 commonmark~~. GFM \u4E5F\u652F\u6301\uFF01
 
 \u60A8\u53EF\u4EE5\u5728**\u53CC\u680F\u7F16\u8F91\u6A21\u5F0F**\u4E2D\u770B\u5230 markdown \u6587\u672C\u3002
@@ -77,7 +77,7 @@ $$
 
 \u56FE\u8868\u7531 [mermaid](https://mermaid-js.github.io/mermaid/#/)\u9A71\u52A8\u3002
 
-\u4F60\u53EF\u4EE5\u8F93\u5165 _\\\`\\\`\\\`mermaid_ \u6765\u6DFB\u52A0\u56FE\u8868\u3002
+\u4F60\u53EF\u4EE5\u8F93\u5165 \` \`\`\`mermaid \` \u6765\u6DFB\u52A0\u56FE\u8868\u3002
 
 \`\`\`mermaid
 graph TD;
@@ -91,7 +91,7 @@ graph TD;
 
 Have fun!
 
-[repo]: https://github.com/Saul-Mirone/milkdown
+[\u4EE3\u7801\u4ED3\u5E93]: https://github.com/Saul-Mirone/milkdown
 [prosemirror]: https://prosemirror.net/
 [yjs]: https://docs.yjs.dev/
 [remark]: https://github.com/remarkjs/remark
