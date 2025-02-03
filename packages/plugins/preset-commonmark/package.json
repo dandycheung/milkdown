@@ -1,7 +1,7 @@
 {
   "name": "@milkdown/preset-commonmark",
   "type": "module",
-  "version": "7.5.9",
+  "version": "7.6.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -52,7 +52,7 @@
     "@milkdown/utils": "workspace:*",
     "@sindresorhus/slugify": "^2.2.0",
     "remark-inline-links": "^7.0.0",
-    "tslib": "^2.5.0",
+    "tslib": "^2.8.1",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
