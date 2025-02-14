@@ -1,5 +1,6 @@
 import { c, html, useRef, useState } from 'atomico'
 import type { Component } from 'atomico'
+import { customAlphabet } from 'nanoid'
 import clsx from 'clsx'
 import type { InlineImageConfig } from './config'
 
@@ -15,6 +16,8 @@ export type InlineImageComponentProps = Attrs & {
   config: InlineImageConfig
 }
 
+const nanoid = customAlphabet('abcdefg', 8)
+
 export const inlineImageComponent: Component<InlineImageComponentProps> = ({
   src = '',
   selected = false,
@@ -24,7 +27,7 @@ export const inlineImageComponent: Component<InlineImageComponentProps> = ({
   config,
 }) => {
   const linkInput = useRef<HTMLInputElement>()
-  const [uuid] = useState(crypto.randomUUID())
+  const [uuid] = useState(nanoid())
   const [focusLinkInput, setFocusLinkInput] = useState(false)
   const [hidePlaceholder, setHidePlaceholder] = useState(src.length !== 0)
   const [currentLink, setCurrentLink] = useState(src)
