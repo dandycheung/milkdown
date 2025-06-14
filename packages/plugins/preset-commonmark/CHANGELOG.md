@@ -1,5 +1,64 @@
 # @milkdown/preset-commonmark
 
+## 7.13.1
+
+### Patch Changes
+
+- 35c3a33: Milkdown patch version release.
+
+  ## Fix
+
+  - fix: 🐛 blockConfig not found error (#1958)
+
+- Updated dependencies [35c3a33]
+  - @milkdown/core@7.13.1
+  - @milkdown/ctx@7.13.1
+  - @milkdown/exception@7.13.1
+  - @milkdown/prose@7.13.1
+  - @milkdown/transformer@7.13.1
+  - @milkdown/utils@7.13.1
+
+## 7.13.0
+
+### Minor Changes
+
+- 327e89a: Milkdown minor release.
+
+  ## Feat
+
+  - feat: 🎸 improve the block menu config api (#1953)
+  - feat: 🎸 add commands to update block and range (#1952)
+  - feat: 🎸 expose builder in toolbar config (#1950)
+  - feat: 🎸 add selected command (#1947)
+  - feat: 🎸 add toggle link command (#1946)
+  - feat: 🎸 add latex toggle command (#1945)
+
+  ## Docs
+
+  - docs: ✏️ update readme
+
+  ## Refactor
+
+  - refactor: 💡 use group builder to build toolbar (#1949)
+
+  ## Test
+
+  - test: 💍 fix flaky e2e
+
+  ## Ci
+
+  - ci: 🎡 wrong playwright test result path
+
+### Patch Changes
+
+- Updated dependencies [327e89a]
+  - @milkdown/core@7.13.0
+  - @milkdown/ctx@7.13.0
+  - @milkdown/exception@7.13.0
+  - @milkdown/prose@7.13.0
+  - @milkdown/transformer@7.13.0
+  - @milkdown/utils@7.13.0
+
 ## 7.12.1
 
 ### Patch Changes
