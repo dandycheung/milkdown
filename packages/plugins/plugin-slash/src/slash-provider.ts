@@ -59,6 +59,12 @@ export class SlashProvider {
   /// @internal
   readonly #shouldShow: (view: EditorView, prevState?: EditorState) => boolean
 
+  /// @internal
+  readonly #updater: {
+    (view: EditorView, prevState?: EditorState): void
+    cancel: () => void
+  }
+
   /// The offset to get the block. Default is 0.
   readonly #offset?: OffsetOptions
 
@@ -77,6 +83,7 @@ export class SlashProvider {
     this.#middleware = options.middleware ?? []
     this.#floatingUIOptions = options.floatingUIOptions ?? {}
     this.#root = options.root
+    this.#updater = debounce(this.#onUpdate, this.#debounce)
   }
 
   /// @internal
@@ -138,9 +145,7 @@ export class SlashProvider {
 
   /// Update provider state by editor view.
   update = (view: EditorView, prevState?: EditorState): void => {
-    const updater = debounce(this.#onUpdate, this.#debounce)
-
-    updater(view, prevState)
+    this.#updater(view, prevState)
   }
 
   /// Get the content of the current text block.
@@ -153,6 +158,8 @@ export class SlashProvider {
     const { selection } = view.state
     const { empty, $from } = selection
     const isTextBlock = view.state.selection instanceof TextSelection
+
+    if (typeof document === 'undefined') return
 
     const isSlashChildren = this.element.contains(document.activeElement)
 
@@ -176,7 +183,9 @@ export class SlashProvider {
   }
 
   /// Destroy the slash.
-  destroy = () => {}
+  destroy = () => {
+    this.#updater.cancel()
+  }
 
   /// Show the slash.
   show = () => {
