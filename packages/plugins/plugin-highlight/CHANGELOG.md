@@ -1,5 +1,13 @@
 # @milkdown/plugin-highlight
 
+## 7.21.4
+
+### Patch Changes
+
+- @milkdown/core@7.21.4
+- @milkdown/ctx@7.21.4
+- @milkdown/utils@7.21.4
+
 ## 7.21.3
 
 ### Patch Changes

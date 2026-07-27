@@ -1,5 +1,12 @@
 # @milkdown/react
 
+## 7.21.4
+
+### Patch Changes
+
+- @milkdown/kit@7.21.4
+- @milkdown/crepe@7.21.4
+
 ## 7.21.3
 
 ### Patch Changes

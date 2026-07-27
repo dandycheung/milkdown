@@ -1,5 +1,13 @@
 # @milkdown/plugin-prism
 
+## 7.21.4
+
+### Patch Changes
+
+- @milkdown/ctx@7.21.4
+- @milkdown/prose@7.21.4
+- @milkdown/utils@7.21.4
+
 ## 7.21.3
 
 ### Patch Changes

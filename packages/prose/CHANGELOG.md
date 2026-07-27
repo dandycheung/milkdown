@@ -1,5 +1,11 @@
 # @milkdown/prose
 
+## 7.21.4
+
+### Patch Changes
+
+- @milkdown/exception@7.21.4
+
 ## 7.21.3
 
 ### Patch Changes

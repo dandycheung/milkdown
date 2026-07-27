@@ -1,5 +1,15 @@
 # @milkdown/plugin-diff
 
+## 7.21.4
+
+### Patch Changes
+
+- @milkdown/core@7.21.4
+- @milkdown/ctx@7.21.4
+- @milkdown/prose@7.21.4
+- @milkdown/transformer@7.21.4
+- @milkdown/utils@7.21.4
+
 ## 7.21.3
 
 ### Patch Changes

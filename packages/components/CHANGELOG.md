@@ -1,5 +1,21 @@
 # @milkdown/components
 
+## 7.21.4
+
+### Patch Changes
+
+- 9daa433: Resolve deferred list item block selections against the current document.
+  - @milkdown/core@7.21.4
+  - @milkdown/ctx@7.21.4
+  - @milkdown/exception@7.21.4
+  - @milkdown/plugin-diff@7.21.4
+  - @milkdown/plugin-tooltip@7.21.4
+  - @milkdown/preset-commonmark@7.21.4
+  - @milkdown/preset-gfm@7.21.4
+  - @milkdown/prose@7.21.4
+  - @milkdown/transformer@7.21.4
+  - @milkdown/utils@7.21.4
+
 ## 7.21.3
 
 ### Patch Changes

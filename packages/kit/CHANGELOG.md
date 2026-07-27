@@ -1,5 +1,32 @@
 # @milkdown/kit
 
+## 7.21.4
+
+### Patch Changes
+
+- Updated dependencies [9daa433]
+  - @milkdown/components@7.21.4
+  - @milkdown/core@7.21.4
+  - @milkdown/ctx@7.21.4
+  - @milkdown/exception@7.21.4
+  - @milkdown/plugin-block@7.21.4
+  - @milkdown/plugin-clipboard@7.21.4
+  - @milkdown/plugin-cursor@7.21.4
+  - @milkdown/plugin-diff@7.21.4
+  - @milkdown/plugin-history@7.21.4
+  - @milkdown/plugin-indent@7.21.4
+  - @milkdown/plugin-listener@7.21.4
+  - @milkdown/plugin-slash@7.21.4
+  - @milkdown/plugin-streaming@7.21.4
+  - @milkdown/plugin-tooltip@7.21.4
+  - @milkdown/plugin-trailing@7.21.4
+  - @milkdown/plugin-upload@7.21.4
+  - @milkdown/preset-commonmark@7.21.4
+  - @milkdown/preset-gfm@7.21.4
+  - @milkdown/prose@7.21.4
+  - @milkdown/transformer@7.21.4
+  - @milkdown/utils@7.21.4
+
 ## 7.21.3
 
 ### Patch Changes
